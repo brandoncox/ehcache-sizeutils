@@ -26,5 +26,5 @@ fi
 
 exec "${JAVA_HOME}/bin/java" \
 ${JAVA_OPTS} \
--cp "${TC_INSTALL_DIR}/custom/lib/EhCacheUtils-1.0.0.jar:${TC_INSTALL_DIR}/ehcache/lib/*" \
+-cp "${TC_INSTALL_DIR}/custom/lib/ehcache-sizeutils-1.0.0.jar:${TC_INSTALL_DIR}/ehcache/lib/*" \
 org.terracotta.utils.SizeIteratorLauncher "$@"
